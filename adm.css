@@ -1,0 +1,32 @@
+
+.menu{
+	background-color: #EEE8AA;
+	color: red;
+	padding: 16px;
+	font-size: 20px;
+	border: none;
+}
+
+.menu{
+	position: relative;
+	display: inline-block;
+
+}
+
+.dansmenu {
+	display: none;
+	position: absolute;
+	background-color: #C0C0C0;
+	min-width: 160px;
+	
+}
+
+.dansmenu a {
+	color: black;
+	padding: 12px 16px;
+	display: block;
+}
+
+.dansmenu a:hover {background-color: #ddd;}
+.menu:hover .dansmenu {display: block;}
+.menu:hover .menu {background-color: #EEE8AA;}
